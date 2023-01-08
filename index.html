@@ -42,10 +42,30 @@ li a:hover {
 }
 
 [class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+[class*="col-"] {
   float: left;
   padding: 15px;
 }
 
+@media only screen and (min-width: 768px) {
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -58,6 +78,7 @@ li a:hover {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+}
 
 p a {
   background-color: red;
@@ -168,12 +189,12 @@ h4 a:hover {
     </div>
     </div>
     <div class="row">
-        <div class="col-7" style="background-color: gainsboro;padding: 86px 70px;">
+        <div class="col-7 col-s-7" style="background-color: gainsboro;padding: 86px 70px;">
             <h1 style="font-size: 60px;"> PROVIDING SERVICES AT YOUR DOOR </h1>
             <p style="font-size: 30px;"> <strong>MACC Essentials </strong> has an important role in making supplies and services available to customes and their patients during this critical time. This includes services from various domains. Our aim is to aid you. As much we can. </p> <br>
             <p style="margin-top: 80px;"> <a href="">LEARN MORE</a> <p>
         </div>
-        <div class="col-5" style="background-color: gainsboro;padding: 30px 20px;" >
+        <div class="col-5 col-s-5" style="background-color: gainsboro;padding: 30px 20px;" >
             <img src="https://raw.githubusercontent.com/huyhaq/html_lab_1_ecommerge/main/image/Feature_img1%20(1).png" alt="A boy" style="width: 550px;height: 637.9px;">
         </div>
     </div>
@@ -196,10 +217,10 @@ h4 a:hover {
         </div>
     </div>
     <div class="row">
-        <div class="col-5">
+        <div class="col-5 col-s-5">
             <img src="https://raw.githubusercontent.com/huyhaq/html_lab_1_ecommerge/main/image/Feature_img1.png" alt="phone">
         </div>
-        <div class="col-7">
+        <div class="col-7 col-s-7">
             <div>
                 <h4> <a href=""> VIEW ALL </a>  </h4>
                 <h2 style="color: orangered; font-size: 40px;"> MACC WEEKLY DISCOUNT </h2>
@@ -221,7 +242,7 @@ h4 a:hover {
         </div>
     </div>
     <div class="row">
-        <div class="col-7">
+        <div class="col-7 col-s-7">
             <div>
                 <h4> <a href=""> VIEW ALL </a> </h4>
                 <h2 style="color: orangered; font-size: 40px; margin-left: 50px;"> MACC TOP SELLINGS </h2>
@@ -239,7 +260,7 @@ h4 a:hover {
                 <p class="img"><span class="fa-sharp fa-solid fa-indian-rupee-sign"></span> 400 </p>
             </div>
         </div>
-        <div class="col-5" style="margin-bottom: 20px;">
+        <div class="col-5 col-s-5" style="margin-bottom: 20px;">
             <img src="https://raw.githubusercontent.com/huyhaq/html_lab_1_ecommerge/main/image/Feature_img1%20(1).png" alt="smilema" >
         </div>
     </div>
@@ -248,24 +269,24 @@ h4 a:hover {
         <p style="font-size: 30px;margin-left: 20%;margin-right: 20%;"> Please remember to adhere all covid-19 guidelines. Precaution is key to survive this pandemic. Stay at home and Stay safe. </p> <br>
     </div>
     <div class="row" style="font-size: 25px;">
-        <div class="col-3">
+        <div class="col-3 col-s-3">
             <img src="https://raw.githubusercontent.com/huyhaq/html_lab_1_ecommerge/main/image/Macc%20Essentials.png" alt="Logo" style="margin-left: 50px;">
         </div>
-        <div class="col-2">
+        <div class="col-2 col-s-2">
             <ul>
                 <li> <a href=""> Home </a> </li>
                 <li> <a href=""> Collection </a> </li>
                 <li> <a href=""> Products </a> </li>
             </ul>
         </div>
-        <div class="col-2">
+        <div class="col-2 col-s-2">
             <ul>
                 <li> <a href=""> About </a> </li>
                 <li> <a href=""> Contact </a> </li>
                 <li> <a href=""> FAQ </a> </li>
             </ul>
         </div>
-        <div class="col-4" style="margin-left: 50px;">
+        <div class="col-4 col-s-4" style="margin-left: 50px;">
             <p> Be the first to know about our biggest and best sales. We'll never send more than one email a month.</p>
             <ul>
                 <li> <a href=""><i class="fa-brands fa-twitter"></i></a></li>
